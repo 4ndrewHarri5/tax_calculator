@@ -1,5 +1,4 @@
-
-https://travis-ci.org/4ndrewHarri5/tax_calculator.svg?branch=master
+[![Build Status](https://travis-ci.org/4ndrewHarri5/tax_calculator.svg?branch=master)](https://travis-ci.org/4ndrewHarri5/tax_calculator)
 
 # Tax Calculator
 
