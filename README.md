@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/4ndrewHarri5/tax_calculator.svg?branch=master)](https://travis-ci.org/4ndrewHarri5/tax_calculator)
+
 # Tax Calculator
 
 This code is designed to practice approaches to CI and CD in a boot camp. It is a simplified implementation of the rules for UK vehicle tax as of 2017 (the full rules can be found here https://www.gov.uk/vehicle-tax-rate-tables).
