@@ -8,12 +8,6 @@ public class DefaultTaxCalculator extends TaxCalculator {
     int calculateTax(Vehicle vehicle) {
 
         int taxPrice = 0;
-        // first check if it is the first tax or not,
-        // if it is then do something else
-        // if not then just pay for tax 140, 0 or 130
-        // or if the price is more than 40k then 450, 310 or 440
-
-        LocalDate today = LocalDate.now();
 
         if (vehicle.getDateOfFirstRegistration().getYear() >= (getYear() - 1)) {
             taxPrice = CO2Range
