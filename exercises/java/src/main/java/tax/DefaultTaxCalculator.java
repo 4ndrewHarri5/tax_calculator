@@ -1,9 +1,6 @@
 package tax;
 
 import java.time.LocalDate;
-import java.time.Period;
-import java.util.Calendar;
-import java.util.Date;
 
 public class DefaultTaxCalculator extends TaxCalculator {
 
