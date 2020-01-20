@@ -10,7 +10,7 @@ import static java.time.Month.JANUARY;
 import static org.assertj.core.api.Assertions.assertThat;
 import static tax.FuelType.PETROL;
 
-//@Ignore
+@Ignore
 public class TaxCalculatorPetrolTest {
 
     private static final LocalDate FIRST_OF_JAN_2019 = LocalDate.of(2019, JANUARY, 1);
