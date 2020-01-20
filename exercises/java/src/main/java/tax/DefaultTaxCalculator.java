@@ -18,7 +18,7 @@ public class DefaultTaxCalculator extends TaxCalculator {
 
         LocalDate today = LocalDate.now();
 
-        if (vehicle.getDateOfFirstRegistration().getYear() < (getYear() - 1)) {
+        if (vehicle.getDateOfFirstRegistration().getYear() >= (getYear() - 1)) {
             taxPrice = CO2Range
                     .getCO2Range(vehicle.getCo2Emissions())
                     .getPriceForCO2FromFuelType(vehicle.getFuelType());
