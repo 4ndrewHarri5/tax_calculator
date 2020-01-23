@@ -1,5 +1,8 @@
 package tax;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public enum CO2Range {
 
     ZERO(0, 0, 0),
@@ -15,6 +18,9 @@ public enum CO2Range {
     ONE_HUNDRED_NINETY_ONE_TO_TWO_HUNDRED_TWENTY_FIVE(1240, 1760, 1230),
     TWO_HUNDRED_TWENTY_SIX_TO_TWO_HUNDRED_FIFTY_FIVE(1760, 2070, 1750),
     OVER_TWO_HUNDRED_FIFTY_FIVE(2070, 2070, 2060);
+
+    static Map<int, CO2Range> map = Map.of(0, ZERO,
+            50, ONE_TO_FIFTY)
 
     private int priceForPetrol;
     private int priceForDiesel;
