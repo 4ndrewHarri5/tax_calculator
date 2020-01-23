@@ -1,7 +1,5 @@
 package tax;
 
-import java.time.LocalDate;
-
 public class DefaultTaxCalculator extends TaxCalculator {
 
     @Override
